@@ -1,0 +1,124 @@
+#main{
+  background:black;
+  text-align:center;
+}
+#title{
+  text-align:center;
+  color:white;
+  font-size:50px;
+  margin-top:0.5px;
+  padding-top:5px;
+  font-family: 'Acme', sans-serif;
+  text-decoration:underline;
+}
+.two{
+  padding: 0.5px 10px 10px 550px;
+  color:white;
+  word-spacing:1px;
+  font-size:18px;
+  font-family:'Poppins', sans-serif;
+}
+
+.mist{
+   border-radius:3%;
+    display:inline-block;
+  box-shadow:0px 0px 7px 7px #555;
+  text-align:center;
+  
+}
+img {
+  border-radius:3%;
+max-width:100%;
+  height: auto;
+  display:block;
+    text-align:center;
+}
+#imga{
+  text-align:center;
+  
+}
+#img-caption{
+  width:85%;
+   color:white;
+      margin-top:25px;
+  margin-left:180px;
+    font-family:'Arvo', serif;
+  word-spacing:3px;
+  line-height:20px;
+}
+#img-div:after {
+    content: '';
+    display:block;
+    clear: both;
+}
+/*hr{
+  color:grey;
+  background-color:white;
+  height:5px;
+  width:70%;
+}*/
+#tribute-info{
+    color:white;
+  margin:190px 250px 20px 250px;
+  background-color:grey;
+  box-shadow: 0px 0px 100px 100px #fff;
+  border-radius:30px;
+  padding:20px;
+  word-spacing:2px;
+ font-family:'Arvo', serif;
+ line-height:25px;
+}
+p {
+  text-align:left;
+  }
+h3{
+    margin-top:15%;
+  color:grey;
+  margin-left:50px;
+  margin-bottom:0px;
+   font-family:'Arvo', serif;
+  letter-spacing:1px;
+  font-size:30px;
+}
+a{
+  color:red;
+ font-family: 'Acme', sans-serif;
+  letter-spacing:1px;
+  
+  }
+.colorchange{
+	animation: colorchangehouse 2s infinite;
+}
+@keyframes colorchangehouse{
+	0%{color:white;}
+	25%{color: green}
+	50%{color: white}
+	100%{color: red}
+}
+@media screen and (max-width: 980px){
+  .two{ padding-left:190px;
+  font-size:16px;
+  }
+  #img-div #imga{
+    float:none;
+  }
+  .mist{
+    margin:10px;
+  }
+  #image{
+       max-width:100%;
+    height:100%;
+  }
+#img-caption{
+  margin:10px;
+  }
+  #tribute-info{
+    margin:30px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 10px #fff;
+  }
+  h3{
+    margin-top:20px;
+    font-size:20px;
+  }
+  
+}
